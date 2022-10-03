@@ -2,6 +2,7 @@
 
 @section('content')
 
+<body>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12 mb-4">
@@ -78,6 +79,7 @@
             </div>
         </div>
     </div>
+    <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-4 mb-4">
             <div class="card">
@@ -184,6 +186,7 @@
             </div>
         </div>
     </div>
+</div>
 
     <table class="table table-stripped">
         <thead class="thead-dark">
@@ -199,5 +202,5 @@
         </thead></tbody>
     </table>
 </div>
-
+</body>
 @endsection
